@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "dig_jyanken.css">
+  </head>
+ <body>
+  <div id="dig_jyanken">
+    <div id="container">
+      <h1>Isaji先輩とAIじゃんけん･･･？</h1>
+      <p class="text">試合数：
+        <span id="gameCount">0</span>
+      </p>
+      <div id = "battle">
+        <p3 id = "enemyHand">コンピュータの出した手:まだ出していません！</p3>
+        <h2 id = "result"></h2>
+
+     <body>
+    <u1>  
+    <p5><img id = "isaji" src = "img/isaji.png" width = "200" height = "250"> </p5>    
+      <p><img id = "comJankenpon" src = "img/jan.png" width = "250" height="250"></p>
+    </u1>
+      <div class="btn">
+        <button id="rock" value="0">グー</button>
+        <button id="scissors" value="1">チョキ</button>
+        <button id="paper" value="2">パー</button>
+      </div>
+       <p4><img id = "myJankenpon" src = "img/jan.png" width = "250" height="250"></p4>
+      </body>
+      <div id="battle">
+        <p2 id="myHand">自分の出した手：まだ出していません</p2>        
+        <h2 id = "result"></h2>
+      </div>    
+
+      <div id="resultTable">
+        <dl>
+          <dt class="text">勝ち数</dt>
+          <dd id="winCount">ー</dd>
+          <dt class="text">負け数</dt>
+          <dd id="loseCount">ー</dd>
+          <dt class="text">勝率</dt>
+          <dd id="winRate">ー</dd>
+          <div id="reset"></div>
+        </dl>
+
+      </div>
+    </div>
+  </div>
+  <script src="dig_jyanken.js"></script>
+ </body>
+</html>
